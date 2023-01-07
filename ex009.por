@@ -1,8 +1,9 @@
-programa{
-	/*
-	*ex009 - Programa para ler o salario de um funcionario e fazer o reajuste do salario
+programa{
+	/*
+	*ex009 - Programa para ler o salario de um funcionario e aplicar um reajuste (aumento) personalizavel 
+	*ao valor digitado
 	*/
-	funcao inicio(){
+	funcao inicio(){
 		real sal, reaj
 		cadeia nome
 		escreva("Digite o nome: ")
@@ -25,7 +26,7 @@ programa{
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 587; 
+ * @POSICAO-CURSOR = 137; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

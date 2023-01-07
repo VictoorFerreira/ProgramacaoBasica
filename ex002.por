@@ -4,7 +4,8 @@ programa
 	funcao inicio()
 {
 		/*
-		 * Ex002 - Programa para ler o nome, ano de nascimento e salario de um funcionario, mostrando em seguida a sua funcionalidade.
+		 * Ex002 - Programa para ler o nome, ano de nascimento e salario de um funcionario, 
+		 * mostrando em seguida a sua funcionalidade.
 		 * Autor: Victor
 		 * Plataforma - EstudoNauta
 		 * Data - 14/12/2022
@@ -34,7 +35,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 803; 
+ * @POSICAO-CURSOR = 129; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

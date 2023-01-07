@@ -1,9 +1,9 @@
-programa{
-	/*
+programa{
+	/*
 	*
-	* Ex006 - Programa para conversão de medidas
+	* Ex006 - Programa para ler um distancia em METROS e converta-la em todas as demais medidas de comprimento
 	*/
-	funcao inicio(){
+	funcao inicio(){
 		real dist //d metros
 		escreva("A distancia de metros é: ")
 		leia(dist)
@@ -22,7 +22,7 @@ programa{
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 221; 
+ * @POSICAO-CURSOR = 343; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
