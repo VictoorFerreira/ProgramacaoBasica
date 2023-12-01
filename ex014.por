@@ -1,14 +1,15 @@
-programa{
-	/*Ex014 - Programa que leia o valor total da compra de um cliente e mostra uma mensagem especial caso as 
-	 *compras sejam acima de R$ 500,00. Nessa situação, ele ainda vai ganhar 10% de desconto.*/
+programa{
+	/* Ex014 - Programa que leia o valor total da compra de um cliente e mostra uma mensagem especial caso as 
+compras sejam acima de R$ 500,00. Nessa situação, ele ainda vai ganhar 10% de desconto.
+	 Empresa: Estudonauta*/
 	inclua biblioteca Matematica --> m
-	funcao inicio(){
+	funcao inicio(){
 		real total, desc
 		escreva("\nQual foi o valor total da compra:R$ ")
 		leia(total)
 		escreva("--------------- RESULTADO ---------------------")
 		escreva("\nVoce comprou R$ " + m.arredondar(total,2) + " na nossa loja. Obrigado!")
-		se(total > 500){
+		se(total > 500){
 			desc = total * 10/100
 			escreva("\n---------------- Atencao -------------------------- ")
 			escreva("\nPor fazer mais de R$500,00 em compras voce vai receber R$ " + m.arredondar(desc, 2) + 
@@ -22,7 +23,7 @@ programa{
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 130; 
+ * @POSICAO-CURSOR = 118; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
